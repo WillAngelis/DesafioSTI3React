@@ -65,7 +65,7 @@ Inicie o servidor
   npm run dev
 ```
 
-Você também pode conferir o deploy na vercel :
+Você também pode conferir o deploy na vercel : https://sti-react-willangelis.vercel.app/
 
 ## Screenshots da Telas
 
