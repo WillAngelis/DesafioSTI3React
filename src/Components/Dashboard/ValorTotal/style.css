@@ -1,0 +1,64 @@
+.top_sellers {
+  min-height: 169px;
+  padding: 16px;
+  min-height: 200px;
+  border-radius: var(--md-radius);
+  background-color: var(--white);
+}
+.table_sells {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.podium_place {
+  text-align: center;
+  border: none;
+  width: 156px;
+  height: 145px;
+  min-height: 114px;
+  padding: 4px 8px;
+  border-radius: var(--sm-radius);
+}
+.podium_place h2,
+.podium_place h4,
+.podium_place p {
+  margin-bottom: 4px;
+}
+.podium_place p:last-child {
+  margin-bottom: 0;
+}
+
+.podium_place p,
+.podium_place span {
+  font-size: 12px;
+}
+
+.podium_place span {
+  font-weight: bold;
+}
+
+/* Lugares */
+
+.place:nth-child(1),
+.place:nth-child(6) {
+  background-color: var(--yellow-100);
+  color: var(--yellow-900);
+}
+.place:nth-child(2),
+.place:nth-child(7) {
+  background-color: var(--blue-100);
+  color: var(--blue-900);
+}
+.place:nth-child(3),
+.place:nth-child(8) {
+  background-color: var(--orange-100);
+  color: var(--orange-900);
+}
+.place:nth-child(4),
+.place:nth-child(5),
+.place:nth-child(9),
+.place:nth-child(10) {
+  background-color: var(--gray-100);
+  color: var(--black);
+}
