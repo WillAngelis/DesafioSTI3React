@@ -108,7 +108,7 @@ h1,p{
   position: absolute;
   left: 50%;
   transform: translateX(-50px);
-  top: 36%;
+  top:40%;
   display: flex;
   flex-direction: column;
   align-items: center;
