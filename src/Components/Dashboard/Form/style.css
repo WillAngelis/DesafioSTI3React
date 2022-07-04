@@ -1,0 +1,103 @@
+.tabs_body {
+  padding: 16px;
+  min-height: 200px;
+  border-radius: var(--md-radius);
+  background-color: var(--white);
+}
+
+.edit_info_container {
+  display: flex;
+  align-items: center;
+}
+
+form input {
+  padding: 12px;
+  width: 368px;
+  outline: none;
+  border: none;
+  border: 1px solid var(--gray-200);
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+form input::placeholder {
+  color: var(--gray-200);
+}
+form input:disabled {
+  color: rgb(27, 27, 27);
+}
+
+form label {
+  font-size: 14px;
+  color: var(--gray-700);
+}
+.edit_info_container h2,
+form h2 {
+  color: var(--black);
+}
+.input_wrong {
+  color: var(--red-500);
+  border-color: var(--red-500);
+  border: 2px solid;
+}
+.input_wrong::placeholder {
+  color: var(--red-500);
+}
+
+/* Edit Container */
+.container_edit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit_info_container div,
+.edit_info_container form {
+  display: flex;
+  width: 50%;
+  height: 260px;
+  flex-direction: column;
+  padding: 8px 0 0;
+}
+.edit_info_container h2 {
+  margin-bottom: 22px;
+  font-size: 18px;
+}
+.edit_info_container span {
+  color: var(--gray-700);
+}
+
+.edit_info_container p {
+  color: var(--black);
+  font-size: 14px;
+  margin-left: 10px;
+}
+.edit_info_container div div {
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  align-items: center;
+}
+
+form input {
+  padding: 12px;
+  width: 368px;
+  outline: none;
+  border: none;
+  border: 1px solid var(--gray-200);
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+form input::placeholder {
+  color: var(--gray-200);
+}
+form input:disabled {
+  color: rgb(27, 27, 27);
+}
+
+form label {
+  font-size: 14px;
+  color: var(--gray-700);
+}
+.edit_info_container h2,
+form h2 {
+  color: var(--black);
+}
